@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 export const Tour = ({ id, image, info, name, price, removeTour }) => {
   const [readMore, setReadMore] = useState(false);
-  console.log(info.substring(0, 10));
 
   return (
     <article className="single-tour">
